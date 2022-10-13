@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: the curly braces <b>{ }</b> for the body
+  - text: parentheses
+  - text: name
+  - text: a return type
+  - text: the fun keyword
+files:
+  - name: src/Main.kt
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      fun main(args: Array<String>) {
+        // put your code here
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4582#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 13 Oct 2022 06:56:29 UTC
+record: -1
+selected_options:
+  - 1
+  - 2
+  - 4
+custom_name: What should be specified?
+local_check: false
